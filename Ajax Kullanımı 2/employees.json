@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "Emirhan Aydın",
+        "department" : "Yönetim Bilişim Sistemleri",
+        "salary" : 0
+    },
+    {
+        "name" : "Emre Aydın",
+        "department" : "Mimarlık",
+        "salary": 5000
+    },
+    {
+        "name" : "Ali Asaf",
+        "department" : "Bilişim",
+        "salary" : 12500
+    }
+]
