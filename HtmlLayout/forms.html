@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Inputs</title>
+</head>
+<body>
+    <form >
+        <!-- HTML5 Input-->
+        <label for="name">Name</label>  <br>
+        <input type="text" id = "name">
+        <br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="password">Şifre</label> <br>
+        <input type="password" id = "password" name="password"> <br>
+        <label for="label">Tarih</label><br>
+        <input type="date" name="date" id="date"><br>
+        Cinsiyet <br>
+        Kadın
+        <input type="radio" name="gender" value="Kadın">
+        Erkek
+        <input type="radio" name="gender" value="Erkek" >
+        Belirtmek İstemiyorum
+        <input type="radio" name="gender" value="Belirtmekİstemiyorum" checked> <br>
+        Hobiler <br>
+        Teknoloji
+        <input type="checkbox" name="tech" id="tech">
+        Müzik
+        <input type="checkbox" name="music" id="music" checked>
+        Sanat
+        <input type="checkbox" name="art" id="art" checked > <br>
+        Derece <br>
+        <select name="degree" id="degree">
+            <option value="doktora">Doktora</option>
+            <option value="yuksek">Yüksek Lisans</option>
+            <option value="lisans">Lisans</option>
+            <option value="lise">Lise</option>
+            <option value="ortaokul">Ortaokul</option>
+
+
+        </select> <br>
+        İstenilen Maaş <br>
+        <select name="salary" id="salary">
+            <option value="high">4501-5000</option>
+            <option value="quite-medium">4001-4500</option>
+            <option value="medium">3501-4000</option>
+            <option value="low-medium">3001-3500</option>
+            <option value="low">2832-3000</option>
+
+        </select> <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Deneyimleriniz"></textarea> <br>
+        <button type="reset">Sıfırla</button>
+        <input type="submit" value="Gönder">
+
+    </form>
+</body>
+</html>
