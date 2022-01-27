@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Psuedo Elements</title>
+</head>
+<style>
+    .para1{
+        font-size: 1.5em;
+        letter-spacing: 2px;
+        line-height: 1.5em;
+    }
+    /*.para1::first-line{
+        color: red;
+    }
+    .para1::first-letter{
+        color: royalblue;
+        font-size: 50px;
+    }*/
+    .para1::after{
+        content: "Paragraf bitti!!!";
+    }
+    .para1::before{
+        content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/600px-Facebook_f_logo_%282019%29.svg.png");
+    }
+</style>
+<body>
+    <div class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus velit quae perspiciatis quas id repellat reprehenderit et adipisci voluptas eligendi a, amet molestiae consequuntur animi ex optio. Praesentium blanditiis tenetur repellat quis mollitia maiores, voluptates, impedit dolorem, nulla sit ipsum? Eligendi minima quisquam nam quam quis blanditiis a, ex similique vitae laudantium eius dolorem velit dolorum, magnam reiciendis? Consequuntur enim harum nemo id mollitia. Hic possimus minus ex magnam atque, provident, unde deleniti nobis enim modi error asperiores adipisci sed totam sit porro quibusdam impedit minima, cupiditate vero. Atque, sapiente ab autem totam nobis cum deleniti unde mollitia eveniet. Fugiat.</div>
+</body>
+</html>

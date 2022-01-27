@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-FlexItem</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        min-height: 600px;
+        background: brown;
+        flex-direction: row;
+        /*justify-content: space-around;*/
+        flex-wrap: wrap;
+        align-items: flex-start;
+        /*align-items: flex-end;*/
+    }
+    .class{
+        text-align: center;
+        background: #f2f2f2;
+        width: 150px;
+        border: 2px solid black;
+        height: 150px;
+        margin: 10px;
+    }
+    .box-1{
+        /*order: 3; nesneyi kendi sıramıza göre yerleştirmek istersek order kullanıyoruz*/
+        background: salmon;
+        flex-grow: 1;
+    }
+    .box-2{
+        /*order: 1;*/
+        background: sienna;
+        /*align-self: flex-end;*/
+        flex-grow: 1;
+    }
+    .box-3{
+        /*order: 2;*/
+        background: skyblue;
+        /*flex-grow: 3;*/
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="class box-1"></div>
+        <div class="class box-2"></div>
+        <div class="class box-3"></div>
+        
+    </div>
+</body>
+</html>

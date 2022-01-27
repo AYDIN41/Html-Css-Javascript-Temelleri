@@ -1,0 +1,120 @@
+/* Text */
+
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.15rem;
+}
+.heading-medium{
+    font-size: 1.75;
+}
+.heading-big{
+    font-size: 2rem;
+}
+/* Colors */
+.bg-dark-blue{
+    background: darkblue;
+}
+.bg-light-blue{
+    background: lightblue;
+}
+/* Buttons */
+.btn{
+    margin-top: 1.5rem;
+    padding: 1rem 3rem;
+    border-radius: 9px;
+    letter-spacing: 0.7px;
+}
+.btn-primary{
+    background: royalblue;
+}
+.btn-primary:hover{
+    color: royalblue;
+    background: white;
+    border: 0.7px black solid;
+}
+.btn-dark{
+    background: black;
+}
+.btn-dark:hover{
+    color: black;
+    background: white;
+    border: 0.7px black solid;
+}
+.btn-block{
+    width: 100%;
+    /*text-align: center;*/
+}
+/* Container */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.primary-title{
+    letter-spacing: 1.2px;
+    /* font-weight yazılan cümleyi bold yapmak için yardımcı*/
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.primary-title:hover{
+    /*color: rgb(78, 225, 65);
+    background: white;*/
+    font-size: 35px;
+    font-weight: 850;
+    color: black;
+    opacity: 1;
+    
+}
+.primary-description{
+    letter-spacing: 1.2px;
+    margin-bottom: 0.5rem;
+    opacity: 0.7;
+}
+.primary-description:hover{
+    /*color: tomato;
+    background: turquoise;
+    border: 3px solid black;*/
+    font-size: 35px;
+    font-weight: 850;
+    color: black;
+    opacity: 1;
+
+}
+.primary-instructor{
+    font-size: 0.8rem;
+    margin-bottom: 0.75rem;
+    opacity: 0.7;
+}
+.primary-instructor:hover{
+    font-size: 35px;
+    font-weight: 850;
+    color: black;
+    opacity: 1;
+}
+.primary-rating{
+    font-size: 0.8rem;
+    margin-bottom: 0.6rem;
+    opacity: 0.6;
+}
+.primary-rating:hover{
+    font-size: 35px;
+    font-weight: 850;
+    color: black;
+    opacity: 1;
+}
+/* form */ 
+.form-group{
+    padding: 0.25rem 0;
+}
+.form-group label{
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding: 0.35rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 7px;
+    
+}

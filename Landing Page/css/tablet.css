@@ -1,0 +1,56 @@
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.courses .course {
+    
+    margin: 1px auto;
+}
+.primary-title{
+    letter-spacing: 1.2px;
+    /* font-weight yazılan cümleyi bold yapmak için yardımcı*/
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.primary-title:hover{
+    font-size: 15px;
+    font-weight: 50;
+    color: black;
+    opacity: 1;
+    
+}
+.primary-description{
+    letter-spacing: 1.2px;
+    margin-bottom: 0.5rem;
+    opacity: 0.7;
+}
+.primary-description:hover{
+    font-size: 15px;
+    font-weight: 50;
+    color: black;
+    opacity: 1;
+
+}
+.primary-instructor{
+    font-size: 0.8rem;
+    margin-bottom: 0.75rem;
+    opacity: 0.7;
+}
+.primary-instructor:hover{
+    font-size: 15px;
+    font-weight: 50;
+    color: black;
+    opacity: 1;
+}
+.primary-rating{
+    font-size: 0.8rem;
+    margin-bottom: 0.6rem;
+    opacity: 0.6;
+}
+.primary-rating:hover{
+    font-size: 15px;
+    font-weight: 50;
+    color: black;
+    opacity: 1;
+}

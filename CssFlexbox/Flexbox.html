@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Flexbox</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        min-height: 600px;
+        background: brown;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        /*align-items: flex-end;*/
+    }
+    .class{
+        text-align: center;
+        background: #f2f2f2;
+        width: 200px;
+        border: 2px solid black;
+        height: 200px;
+        margin: 10px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="class">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="class">
+            <h1>Article 2</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="class">
+            <h1>Article 3</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </div>
+        
+    </div>
+</body>
+</html>

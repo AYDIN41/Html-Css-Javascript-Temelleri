@@ -1,0 +1,64 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    overflow: hidden;
+    height: 80px;
+}
+#training .items{
+    flex-direction: column;
+}
+#training .items .item{
+   
+    width: 100%;
+}
+.courses .course{
+    flex-direction: column;
+}
+.primary-title{
+    letter-spacing: 1.2px;
+    /* font-weight yazılan cümleyi bold yapmak için yardımcı*/
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.primary-title:hover{
+    font-size: 15px;
+    font-weight: 50;
+    color: black;
+    opacity: 1;
+    
+}
+.primary-description{
+    letter-spacing: 1.2px;
+    margin-bottom: 0.5rem;
+    opacity: 0.7;
+}
+.primary-description:hover{
+    font-size: 15px;
+    font-weight: 50;
+    color: black;
+    opacity: 1;
+
+}
+.primary-instructor{
+    font-size: 0.8rem;
+    margin-bottom: 0.75rem;
+    opacity: 0.7;
+}
+.primary-instructor:hover{
+    font-size: 15px;
+    font-weight: 50;
+    color: black;
+    opacity: 1;
+}
+.primary-rating{
+    font-size: 0.8rem;
+    margin-bottom: 0.6rem;
+    opacity: 0.6;
+}
+.primary-rating:hover{
+    font-size: 15px;
+    font-weight: 50;
+    color: black;
+    opacity: 1;
+}
